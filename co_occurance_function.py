@@ -44,7 +44,7 @@ corpus=["abc def ijk pqr", "pqr klm opq", "lmn pqr xyz abc def pqr abc"]
 
 
 Calling the Function:
-co_occurance_matrix = co_occurance_matrix(top_2000,window_size,CORPUS)
+co_occurance_matrix = co_occurance_matrix(top_2000,window_size,corpus)
 
 Expected Output:
 array([[0, 3, 3],
