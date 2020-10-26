@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+"""
+Program made by Vignesh GJ (CECID : vgopalja)
+Language : Python 3.x
+Purpose : To calculate the co-occurance matrix
+"""
+
 top_2000 = [ "abc","pqr","def"]
 mat = np.zeros((len(top_2000), len(top_2000)))
 window_size = 2
