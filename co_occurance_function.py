@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+"""
+Program made by Vignesh GJ (CECID : vgopalja)
+Language : Python 3.x
+Purpose : To calculate the co-occurance matrix
+
+"""
+
 def co_occurance_matrix(top_2000,window_size,corpus):
     """
     This function will calculate the co-occurance matrix by taking top_words , window_size, Document_corpus
